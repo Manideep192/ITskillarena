@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>IT Skill Arena - Explore More</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #f9fafc;
+    }
+
+    /* Header */
+    .top-bar {
+      background: #0d6efd;
+      color: #fff;
+      padding: 15px 0;
+    }
+
+    .top-bar h2 {
+      margin: 0;
+      font-weight: 700;
+    }
+
+    .navbar-light .nav-link {
+      font-weight: 500;
+      margin: 0 10px;
+      transition: color 0.3s ease;
+    }
+
+    .navbar-light .nav-link:hover,
+    .navbar-light .nav-link.active {
+      color: #0d6efd !important;
+    }
+
+    /* Explore Section Styling */
+    .explore-section {
+      background: #f9fafc;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    .section-title {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: #222;
+    }
+
+    .section-title span {
+      color: #0d6efd;
+    }
+
+    .section-subtitle {
+      font-size: 1.1rem;
+      color: #555;
+      max-width: 650px;
+      margin: auto;
+    }
+
+    .explore-block {
+      background: #fff;
+      padding: 25px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .explore-block:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .explore-heading {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: #0d6efd;
+    }
+
+    .custom-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .custom-list li {
+      font-size: 1.05rem;
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .custom-list i {
+      color: #0d6efd;
+      margin-right: 10px;
+      font-size: 1.2rem;
+    }
+
+    .cta-heading {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #222;
+    }
+
+    /* Footer */
+    .footer {
+      background: #111;
+      color: #bbb;
+      padding: 20px 0;
+    }
+
+    .footer a {
+      color: #0d6efd;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="container-fluid top-bar d-none d-lg-flex align-items-center">
+    <div class="container d-flex align-items-center">
+      <img style="max-width: 70px; border-radius: 100px; margin-right: 15px;" src="img/it-skill-arena logo.jpg"
+        alt="Logo">
+      <h2 class="text-white fw-bold">IT SKILL ARENA</h2>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand fw-bold"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav ms-auto">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="services.html" class="nav-link">Services</a>
+          <a href="explore.html" class="nav-link active">Explore</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+          <a href="faq.html" class="nav-link">FAQ</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Explore More Section -->
+  <div id="explore" class="explore-section py-5">
+    <div class="container">
+      <h2 class="section-title text-center mb-3">
+        Explore More at <span>IT SKILL ARENA</span>
+      </h2>
+      <p class="section-subtitle text-center mb-5">
+        Dive deeper into our expertise, services, and vision for the future.
+      </p>
+
+      <!-- Who We Are -->
+      <div class="explore-block mb-5">
+        <h3 class="explore-heading">Who We Are</h3>
+        <p>
+          IT Skill Arena is a trusted partner in software consultancy and IT services.
+          We combine innovation, technical expertise, and a client-first approach to
+          deliver solutions that empower businesses and individuals.
+        </p>
+      </div>
+
+      <!-- What We Do -->
+      <div class="explore-block mb-5">
+        <h3 class="explore-heading">What We Do</h3>
+        <ul class="custom-list">
+          <li><i class="bi bi-check-circle-fill"></i> Custom Software Development</li>
+          <li><i class="bi bi-check-circle-fill"></i> Artificial Intelligence & Data Solutions</li>
+          <li><i class="bi bi-check-circle-fill"></i> Software Consultancy</li>
+          <li><i class="bi bi-check-circle-fill"></i> Professional IT Training</li>
+        </ul>
+      </div>
+
+      <!-- Why Choose Us -->
+      <div class="explore-block mb-5">
+        <h3 class="explore-heading">Why Choose Us?</h3>
+        <p>
+          We believe in long-term partnerships. Our focus on tailored solutions,
+          cost-effectiveness, and 24/7 support ensures that your business
+          achieves sustainable growth.
+        </p>
+      </div>
+
+      <!-- Call to Action -->
+      <div class="text-center mt-5">
+        <h3 class="cta-heading mb-3">Let’s Build the Future Together</h3>
+        <p class="mb-4">Have a project in mind or want to upgrade your skills?</p>
+        <a href="contact.html" class="btn btn-primary btn-lg rounded-pill px-5 py-3 shadow-sm">
+          Contact Us Today
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer text-center">
+    <div class="container">
+      <p class="mb-1">© 2025 IT SKILL ARENA. All Rights Reserved.</p>
+      <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
